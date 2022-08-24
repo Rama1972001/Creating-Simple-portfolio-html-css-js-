@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', event => {
     const sidebarWrapper = document.getElementById('sidebar-wrapper');
     let scrollToTopVisible = false;
 
-    const menuToggle = document.body.querySelector('.menu-toggle');
+    const menuToggle = document.body.querySelector('.menu');
     menuToggle.addEventListener('click', event => {
         event.preventDefault();
         sidebarWrapper.classList.toggle('active');
@@ -22,8 +22,8 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
     function _toggleMenuIcon() {
-        const menuToggleBars = document.body.querySelector('.menu-toggle > .fa-bars');
-        const menuToggleTimes = document.body.querySelector('.menu-toggle > .fa-xmark');
+        const menuToggleBars = document.body.querySelector('.menu > .fa-bars');
+        const menuToggleTimes = document.body.querySelector('.menu > .fa-xmark');
         if (menuToggleBars) {
             menuToggleBars.classList.remove('fa-bars');
             menuToggleBars.classList.add('fa-xmark');
