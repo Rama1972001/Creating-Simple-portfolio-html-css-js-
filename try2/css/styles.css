@@ -1948,7 +1948,15 @@ footer.footer .social-link:hover {
     padding-left: 1.5rem !important;
 }
 
-.px-44 {
-    padding-right: 1.5rem !important;
-    padding-left: 30rem !important;
+.masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
